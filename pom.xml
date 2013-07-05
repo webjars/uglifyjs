@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <groupId>org.webjars</groupId>
+  <artifactId>uglifyjs</artifactId>
+  <version>2.3.6-SNAPSHOT</version>
+  <name>UglifyJS</name>
+  <description>WebJar for UglifyJS (http://lisperator.net/uglifyjs/)</description>
+  <url>http://webjars.org</url>
+
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>https://github.com/mishoo/UglifyJS2/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>http://github.com/webjars/uglifyjs</url>
+    <connection>scm:git:https://github.com/webjars/uglifyjs.git</connection>
+    <developerConnection>scm:git:https://github.com/webjars/uglifyjs.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>jamesward</id>
+      <name>James Ward</name>
+      <email>james@jamesward.org</email>
+    </developer>
+    <developer>
+      <id>moandji.ezana</id>
+      <name>Moandji Ezana</name>
+      <email>mwanji@gmail.com</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
