@@ -40,7 +40,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>2.4.13</upstreamVersion>
+        <upstreamVersion>2.7.4</upstreamVersion>
         <upstream.url>https://github.com/mishoo/UglifyJS2</upstream.url>
         <extractDir>${project.build.directory}/UglifyJS2-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
